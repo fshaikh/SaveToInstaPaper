@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/categoryTitle"
+        				android:key="default_category">
+        <EditTextPreference 
+            android:key="@string/usernamekey"
+            android:title="@string/usernametitle"
+            android:summary="@string/usernamesummary"
+            android:dialogTitle="@string/usernamedialogtitle"
+            android:dialogMessage="@string/usernamedialogmessage"
+            android:defaultValue=""
+            />
+        <EditTextPreference 
+            android:key="@string/passwordkey"
+            android:title="@string/passwordtitle"
+            android:summary="@string/passwordsummary"
+            android:dialogTitle="@string/passworddialogtitle"
+            android:dialogMessage="@string/usernamedialogmessage"
+            android:defaultValue=""
+            android:inputType="textPassword"
+            />
+        
+    </PreferenceCategory>
+</PreferenceScreen>

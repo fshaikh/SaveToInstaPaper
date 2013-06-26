@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Save To InstaPaper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_share_receiver">Save To InstaPaper</string>
+	<string name="username_hinttext">Enter username here</string>
+	<string name="password_hinttext">Enter Password Here</string>
+	<string name="saveBtnText">Save</string>
+	<string name="checkboxtext">Check Credentials</string>
+	<string name="ValidCredsMessage">Correct Credentials.</string>
+	<string name="InValidCredsMessage">InCorrect Credentials.Please enter again</string>
+	<string name="NoNetworkMessage">No network availability.Please try again later.</string>
+	<string name="NoResponseMessage">Unable to save to InstaPaper.No Response.</string>
+	<string name="AddSuccessMessage">Successfully saved to InstaPaper.</string>
+	<string name="BroadcastIntentMessage">savetoinstapaper.shareintent</string>
+	<string name="SkyDriveBroadcastIntentMessage">savetoinstapaper.skydriveshare</string>
+	<string name="CredsNotSetMessage">Credentials are not set.</string>
+	<string name="categoryTitle">InstaPaper Settings</string>
+	<string name="usernametitle">InstaPaper Username</string>
+	<string name="usernamesummary">Username or email address registered at InstaPaper.</string>
+	<string name="usernamedialogtitle">InstaPaper Username</string>
+	<string name="usernamedialogmessage"></string>
+	
+	<string name="passwordtitle">Password</string>
+	<string name="passwordsummary">InstaPaper password</string>
+	<string name="passworddialogtitle">InstaPaper Password</string>
+	<string name="passworddialogmessage"></string>
+	
+	<string name="usernamekey">username</string>
+	<string name="passwordkey">password</string>
+	<string name="checkcredonsavekey">checkcredonsave</string>
+	
+	<string name="skydrivemenutext">SkyDrive</string>
+</resources>
